@@ -21,16 +21,99 @@
     margin: 0;
 }
 .resume-header{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width:max-content;
+    height: 30px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+.resume-contact{
+    width: 80%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-details{
+    font-size: 12px;
+    width: max-content;
+    height: 20px;
+    list-style: none;
+}
 
+.location{
+    width: max-content;
+    height: 20px;
+    margin-top: -5px;
+}
+.fas, .fab{
+    color:#0f89d6;
+}
+.resume-about{
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    padding: 0;
+    display: flex;
+}
+.resume-about-column-1{
+    width: 60%;
+    height: auto;
+}
+.resume-about-column-2{
+    width: 40%;
+    height: auto;
 }
 .title{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
-    width: max-content;
-    height: 30px;
     background-color: darkgrey;
-    padding: 0 0 1px 0;
-    border-bottom: 2px solid black ;
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid black ;
     box-sizing: border-box;
+    display: inline-block
+}
+.column-1{
+    width: 90%;
+    height: 25px;
+}
+.column-2{
+    width: 100%;
+    height: 25px;
+}
+.summary-body{
+    padding:5px 0 20px 0;
+    font-size: 14px;
+}
+.tech-stack-body{
+    padding:10px 0 20px 0;
+}
+.tech-stack-ul{
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 30px;
+    
+}
+.ul{
+    list-style-position: inside;
+}
+.tech-stack-list{
+    padding-left: 20px;
+}
+.tech-stack-list:first-child{
+    padding:0;
+}
+.project-body{
+    padding:5px 0 20px 0;
+    font-size: 12px;
 }
