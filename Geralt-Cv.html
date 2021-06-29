@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/da6ef82edf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="app.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Merriweather+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <title>Geralt of Rivia</title>
 </head>
 
@@ -16,52 +21,226 @@
             <section class='resume-header'>
                 geralt of rivia
             </section>
-            <section class='resume-about-1'>
-                <ul>
-                    <li>
-                        +123456789
+
+            <section class='resume-contact-deets'>
+                <ul class='resume-contact'>
+                    <li class="contact-details">
+                        <i class="fas fa-phone-alt"></i>
+                        <span class='label'>+123456789</span>
                     </li>
-                    <li>
-                        geralt.rivia@cdprojekt.com
+                    <li class="contact-details">
+                        <i class="fas fa-envelope"></i>
+                        <span class='label'>geralt.rivia@cdprojekt.com</span>
                     </li>
-                    <li>
-                        www.linkedin.com/geralt404
+                    <li class="contact-details">
+                        <i class="fab fa-linkedin"></i>
+                        <span class='label'>www.linkedin.com/geralt404</span>
                     </li>
                 </ul>
                 <ul>
-                    Beauclaire, Toussaint
+                    <li class="contact-details location">
+                        <i class="fas fa-location-arrow"></i>
+                        <span class='label'>Beauclaire, Toussaint</span>
+                    </li>
+
                 </ul>
             </section>
 
-            <section class="resume-about-column-1">
-                <section class='experience'>
-                    <div class='title'>
-                        experience
-                    </div>
-                </section>
-                <section class='education'>
-                    <div class='title'>
-                        education
-                    </div>
+            <section class='resume-about'>
+
+                <section class="resume-about-column-1">
+                    <section class='experience'>
+                        <div class='title column-1'>
+                            experience
+                        </div>
+                        <div class="experience-body">
+                            <div class='experience-1-title'>
+                                Monster Slayer
+                            </div>
+                            <div class="experience-1-body">
+                                <div class='experience-company'>
+                                    Duchy of Touissant
+                                </div>
+                                <div class="time-location">
+                                    <div class='time-worked'>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span class='exp-time'>01/1990 - 09/1990</span>
+                                    </div>
+                                    <div class="place-worked">
+                                        <i class="fas fa-location-arrow" id='place'></i>
+                                        <span class='exp-location'>Beuclair, Toussaint</span>
+                                    </div>
+                                </div>
+
+                                <ul class="ul">
+                                    <li class='experience-list'>Met anna henrietta first</li>
+                                    <li class='experience-list'>Discussed the problem of vampires</li>
+                                    <li class='experience-list'>Found the culprit vampires and killed them</li>
+                                </ul>
+                            </div>
+                            <div class='experience-2-title'>
+                                Defender of Kaer Morhan
+                            </div>
+                            <div class="experience-2-body">
+                                <div class='experience-company'>
+                                    School of the Wolf
+                                </div>
+                                <div class="time-location">
+                                    <div class='time-worked'>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span class='exp-time'>05/1985 - 06/1985</span>
+                                    </div>
+                                    <div class="place-worked">
+                                        <i class="fas fa-location-arrow" id='place'></i>
+                                        <span class='exp-location'>Kaer Morhan, Kaedwen</span>
+                                    </div>
+                                </div>
+                                <ul class="ul">
+                                    <li class='experience-list'>Met vesemir to plan the defence</li>
+                                    <li class='experience-list'>gathered Cirila and other witchers</li>
+                                    <li class='experience-list'>Defended Kaer Morhan successfully against the wild hunt
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class='education'>
+                        <div class='title column-1'>
+                            education
+                        </div>
+                        <div class="education-body">
+                            <div class="education-part-1">
+                                <div class="degree-deets">
+                                    <div class="degree">
+                                        Phd in Witcher Science and Management
+                                    </div>
+                                    <div class='college'>
+                                        Wolf School
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span class='study-time'>05/1960 - 06/1962</span>
+                                    </div>
+                                </div>
+                                <div class="gpa">
+                                    <div class="gpa-title">
+                                        gpa
+                                    </div>
+                                    <div class="gpa-points">
+                                        <span class='obtained-gpa'>5.00</span>
+                                        <span class='total-gpa'>/ 5.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='education-part-2'>
+                                <div class="degree-deets">
+                                    <div class="degree">
+                                        Bsc in Witcher Engineering
+                                    </div>
+                                    <div class='college'>
+                                        Witcher School
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span class='study-time'>05/1955 - 06/1958</span>
+                                    </div>
+                                </div>
+                                <div class="gpa">
+                                    <div class="gpa-title">
+                                        gpa
+                                    </div>
+                                    <div class="gpa-points">
+                                        <span class='obtained-gpa'>5.00</span>
+                                        <span class='total-gpa'>/ 5.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </section>
 
-            </section>
+                <section class="resume-about-column-2">
+                    <section class='summary'>
+                        <div class='title column-2'>
+                            summary
+                        </div>
+                        <div class='summary-body'>
+                            A legendary witcher of the School of the Wolf
+                            active throughout the 13th century. He loved the sorceress Yennefer,
+                            onsidered the love of his life despite their tumultuous relationship,
+                            and became Ciri's adoptive father.
+                        </div>
+                    </section>
+                    <section class='tech-stack'>
+                        <div class='title column-2'>
+                            tech stack
+                        </div>
+                        <div class="tech-stack-body">
+                            <ul class='tech-stack-ul'>
+                                <li class='tech-stack-list'>Expert Monster Hunter</li>
+                                <li class='tech-stack-list'>Combat</li>
+                                <li class='tech-stack-list'>Signs</li>
 
-            <section class="resume-about-column-2">
-                <section class='summary'>
-                    <div class='title'>
-                        summary
-                    </div>
-                </section>
-                <section class='tech stack'>
-                    <div class='title' >
-                        tech stack
-                    </div>
-                </section>
-                <section class='projects'>
-                    <div class='title'>
-                        projects
-                    </div>
+                            </ul>
+                            <ul class='tech-stack-ul'>
+                                <li class='tech-stack-list'>Alchemy</li>
+                                <li class='tech-stack-list'>General</li>
+                                <li class='tech-stack-list'>Igni</li>
+                                <li class='tech-stack-list'>Aard</li>
+                            </ul>
+                            <ul class='tech-stack-ul'>
+                                <li class='tech-stack-list'>Yrden</li>
+                                <li class='tech-stack-list'>Quen</li>
+                                <li class='tech-stack-list'>Axii</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class='projects'>
+                        <div class='title column-2'>
+                            projects
+                        </div>
+                        <div class="project-body">
+                            <div class="project-1">
+                                <div class="project-1-title">
+                                    Finding Ciri
+                                </div>
+                                <div class='project-1-body'>
+                                    <div class='details'>
+                                        The main project currently undertaken by Geralt involves
+                                        finding ciri and rescuing her from the wild hunt.
+                                    </div>
+                                    <ul class='ul'>
+                                        <li>
+                                            Found Vesemir and Yennefer to get clues about Ciri.
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="project-2">
+                                <div class="project-2-title">
+                                    Equipping the best gear
+                                </div>
+                                <div class='project-2-body'>
+                                    <div class='details'>
+                                        The second important task is to equip best gear.
+                                        The bear school or wolf school gear are pretty cool
+                                        equipment.
+                                    </div>
+                                    <ul class='ul'>
+                                        <li>
+                                            Found gryffin gear set instead. Dope.
+                                        </li>
+                                        <li>
+                                            Also found aditional skill points to strengthen body.
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </section>
             </section>
         </section>
