@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Kirang Haerang', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .resume-background{
-    background: no-repeat center/ cover url("joanna-kosinska-78uNJt1kPw8-unsplash.jpg"), linear-gradient(rgb(43, 43, 43), rgb(151, 151, 151));
+    background: no-repeat center/ cover url("mads-schmidt-rasmussen-6YmzwamGzCg-unsplash.jpg"), linear-gradient(rgb(43, 43, 43), rgb(151, 151, 151));
     width: 80%;
     height: 800px;
     margin: 0 auto;
@@ -13,7 +15,6 @@
     align-items: center;
 }
 .resume-content{
-    background: cornflowerblue;
     color: black;
     width: 80%;
     height: 80%;
@@ -21,11 +22,11 @@
     margin: 0;
 }
 .resume-header{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     width:max-content;
-    height: 30px;
+    height: 35px;
     color: black;
     padding-bottom: 3px;
     margin: 0;
@@ -58,18 +59,6 @@
     padding: 0;
     display: flex;
 }
-.resume-about-column-1{
-    width: 60%;
-    height: auto;
-}
-.resume-about-column-2{
-    width: 40%;
-    height: auto;
-}
-.summary{
-    display: flex;
-    flex-direction: column;
-}
 .title{
     text-transform: uppercase;
     font-size: 20px;
@@ -87,8 +76,152 @@
 .column-2{
     width: 100%;
     flex: 0 1 25px;
+}
+.resume-about-column-1{
+    height: auto;
+    flex: 0 1 60%;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+.experience-body{
+    width: 90%;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 20px 0;
+}
+.experience-1-title, .experience-2-title{
+    font-size: 16px;
+    font-weight: bold;
+    width: 60%;
+    flex: 0 1 auto;
+}
+.experience-2-title{
+    padding-top: 2px;
 
 }
+.experience-company{
+    font-size: 14px;
+    font-weight: bold;
+    color:#0f89d6;
+    width: 40%;
+    flex: 0 1 auto;
+}
+.experience-1-body, .experience-2-body{
+    padding: 3px 0;
+    border-bottom: 1px solid #b7b7b7;
+    width: 100%;
+    flex: 0 1 auto;
+}
+.experience-2-body{
+    border-bottom: none;
+}
+.time-location{
+    display: flex;
+}
+.fa-calendar-alt, .fa-location-arrow, .exp-time, .exp-location{
+    width: max-content;
+    height: 15px;
+    font-size: 10px;
+    color: #565656;
+    
+}
+#place{
+    padding-left: 15px;
+}
+.experience-list{
+    font-size: 12px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+}
+.education-body{
+    padding:5px 0 20px 0;
+    width: 90%;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+.education-part-1, .education-part-2{
+    width: 100%;
+    border-bottom: 1px solid #b7b7b7 ;
+    flex: 0 1 auto;
+    display:flex;
+    flex-direction: row;
+    padding: 10px 0;
+
+}
+.education-part-2{
+    border-bottom: none;
+}
+.degree-deets{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    justify-content: center;
+
+}
+.degree{
+    font-size: 16px;
+    font-weight: bold;
+    width: 80%;
+    flex: 0 1 auto;
+}
+.college{
+    font-size: 14px;
+    font-weight: bold;
+    color:#0f89d6;
+    width: 60%;
+    flex: 0 1 auto;
+
+}
+.study-time{
+    width: max-content;
+    height: 15px;
+    font-size: 10px;
+    color: #565656;
+}
+.gpa{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #b7b7b7;
+    padding: 5px 0;
+
+}
+.gpa-title{
+    text-transform: uppercase;
+    color: #565656;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.gpa-points{
+    color: #565656;
+    font-size: 12px;
+}
+.obtained-gpa{
+    color: #0f89d6;
+}
+
+.resume-about-column-2{
+    height: auto;
+    flex: 0 1 40%;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+}
+
 .summary-body{
     padding:5px 0 20px 0;
     font-size: 14px;
@@ -110,7 +243,6 @@
     text-underline-offset: 0.2rem;
     list-style: none;
     font-size: 14px;
-    font-weight: bold;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
