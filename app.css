@@ -27,7 +27,7 @@
     width:max-content;
     height: 30px;
     color: black;
-    padding: 0;
+    padding-bottom: 3px;
     margin: 0;
 }
 .resume-contact{
@@ -66,11 +66,14 @@
     width: 40%;
     height: auto;
 }
+.summary{
+    display: flex;
+    flex-direction: column;
+}
 .title{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
-    background-color: darkgrey;
     padding: 0;
     margin: 0;
     border-bottom: 3px solid black ;
@@ -79,18 +82,28 @@
 }
 .column-1{
     width: 90%;
-    height: 25px;
+    flex: 0 1 25px;
 }
 .column-2{
     width: 100%;
-    height: 25px;
+    flex: 0 1 25px;
+
 }
 .summary-body{
     padding:5px 0 20px 0;
     font-size: 14px;
+    width: 100%;
+    flex: 0 1 auto;
+}
+.tech-stack{
+    display: flex;
+    flex-direction: column;
 }
 .tech-stack-body{
     padding:10px 0 20px 0;
+    width: 100%;
+    flex: 0 1 auto;
+
 }
 .tech-stack-ul{
     text-decoration: underline;
@@ -99,9 +112,10 @@
     font-size: 14px;
     font-weight: bold;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 98%;
     height: 30px;
+    flex: 0 1 98%;
     
 }
 .ul{
@@ -113,7 +127,36 @@
 .tech-stack-list:first-child{
     padding:0;
 }
+.projects{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:auto;
+}
 .project-body{
     padding:5px 0 20px 0;
     font-size: 12px;
+    width: 100%;
+    flex: 0 1 auto;
+}
+.project-1-title, .project-2-title{
+    font-size: 16px;
+    font-weight: bold;
+    width: max-content;
+    flex: 0 1 auto;
+}
+.project-2-title{
+    padding-top: 2px;
+}
+.project-1-body, .project-2-body{
+    padding: 3px 0;
+    border-bottom: 1px solid #b7b7b7;
+    width: 100%;
+    flex: 0 1 auto;
+}
+.project-2-body{
+    border-bottom: none;
+}
+.ul{
+    padding-top: 2px;
 }
